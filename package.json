@@ -9,20 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/TerriaJS/TerriaMap"
+    "url": "https://github.com/GIUZ-IT/gis_terriamap"
   },
   "dependencies": {
+    "pm2": "^2.10.1",
     "terriajs-server": "^2.7.0"
-  },
-  "config": {
-    "awsProfile": "terria",
-    "awsS3PackagesPath": "s3://terria-apps/map",
-    "awsRegion": "ap-southeast-2",
-    "awsEc2InstanceType": "t2.medium",
-    "awsEc2ImageId": "ami-2a644649",
-    "awsKeyName": "terria-kring",
-    "awsS3ServerConfigOverridePath": "s3://terria-apps/map/privateserverconfig-2016-08-31.json",
-    "awsS3ClientConfigOverridePath": "s3://terria-apps/map/privateclientconfig-2016-08-31.json"
   },
   "devDependencies": {
     "babel-eslint": "^7.0.0",
@@ -54,7 +45,7 @@
     "semver": "^5.0.0",
     "style-loader": "^0.19.1",
     "svg-sprite-loader": "^3.4.0",
-    "terriajs": "5.6.0",
+    "terriajs": "5.6.1",
     "terriajs-catalog-editor": "^0.2.0",
     "terriajs-cesium": "1.41.1",
     "terriajs-schema": "latest",

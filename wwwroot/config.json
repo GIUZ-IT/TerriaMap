@@ -21,6 +21,7 @@
         },
         */
          
+        /*
         // Pop-up disclaimer that will be shown at the start
         // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
         globalDisclaimer: {
@@ -33,11 +34,12 @@
             //devHostRegex: "\\b(staging|preview|test|dev)\\.",
             enableOnLocalhost: true // If false, don't show this when running on localhost
         },
+        */
         
         /*
         developerAttribution: {
-            text: "Your organisation",
-            link: "http://www.example.com"
+            text: "University of Zuerich, Department of Geography",
+            link: "http://www.geo.uzh.ch"
         },*/
         // This is used in various text messages. You should also set <title> in index.html
         appName: "Terria Map",
@@ -49,7 +51,7 @@
             ""
         ],
         // Shown when things go wrong.
-        supportEmail: "help@example.com",
+        supportEmail: "help-desk@geo.uzh.ch",
         // You probably shouldn't change this.
         proj4ServiceBaseUrl: "proj4def/",
         // Or this
