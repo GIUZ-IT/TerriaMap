@@ -4,7 +4,7 @@
         "terria"
     ],
     parameters: {
-        bingMapsKey: "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
+        bingMapsKey: "Al8jn29R98yglKDhSKoVofr1maOy2y2WHs9-p_0FsxWJSfaCtJJYzfM_wq7Y9mGU",
         googleUrlShortenerKey: null,
         googleAnalyticsKey: null,
         googleAnalyticsOptions: null,
@@ -13,6 +13,7 @@
             text: "Disclaimer: This map must not be used for navigation or precise spatial analysis",
             url: ""
         },
+
         /*
         // Text that will be added to any pages printed from your site.
         printDisclaimer:{
@@ -36,20 +37,21 @@
         },
         */
         
-        /*
         developerAttribution: {
             text: "University of Zuerich, Department of Geography",
             link: "http://www.geo.uzh.ch"
-        },*/
+        },
+
         // This is used in various text messages. You should also set <title> in index.html
-        appName: "Terria Map",
+        appName: "GIUZ Map",
 
         // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
         brandBarElements: [
             "",
-            "<a target=\"_blank\" href=\"http://www.nicta.com.au\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+            "<a target=\"_blank\" href=\"https://www.geo.uzh.ch\"><img src=\"images/giuz_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
             ""
         ],
+
         // Shown when things go wrong.
         supportEmail: "help-desk@geo.uzh.ch",
         // You probably shouldn't change this.
